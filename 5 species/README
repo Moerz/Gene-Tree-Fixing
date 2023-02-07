@@ -1,0 +1,11 @@
+The data are stored as:
+data
+├── <num loci>
+│   └── <replicate>
+│       ├── <theta>
+│       │   └── <num sites>
+│       │       ├── iqtree.trees # the IQ-TREE-inferred gene trees 
+│       │       ├── loci1.nex    # the sequence data for the first gene tree
+│       │       └── ...   
+│       └── g_trees.trees        # the true gene trees
+└── OG_s_tree.tree               # the true species tree
