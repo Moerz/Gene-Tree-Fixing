@@ -1,0 +1,13 @@
+The data are stored as:
+birth-death-tree
+ └── <ingroup root height>
+    ├── <num loci>
+    │   └── <replicate>
+    │      ├── <theta>
+    │      │   └── <num sites>
+    │      │      ├── commands.seqgen # seqgen command
+    │      │      ├── loci1.nex       # sequence data for the first gene tree
+    │      │      ├── ...
+    │      │      └── starbeast2.xml  # starbeast2 input file
+    │      └── g_trees.trees          # the true gene trees     
+    └── OG_s_tree.tree                # the true species tree
