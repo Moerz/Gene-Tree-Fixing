@@ -1,6 +1,5 @@
 The data are stored as:
-birth-death-tree
- └── <ingroup root height>
+ <ingroup root height>
     ├── <num loci>
     │   └── <replicate>
     │      ├── <theta>
